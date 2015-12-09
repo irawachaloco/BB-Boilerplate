@@ -342,6 +342,7 @@ COLORS AND BACKGROUND COLORS
 .bkgd-red {
 	background-color: rgb(255,0,0);
 }
+.bkgd-black {background: black;}
 
 /****************************
 BB-CUSTOM STYLES
