@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Login</title>
+	<link rel="shortcut icon" href="assets/images/favicon.ico" type="image/x-icon" />
+	<link rel="stylesheet" type="text/css" href="assets/styles/style.css" type="text/css"/>
+	<link rel="stylesheet" type="text/css" href="assets/styles/pac-styles.css" type="text/css"/>
+	<link rel="stylesheet" type="text/css" href="assets/styles/slick.css" type="text/css"/>
+</head>
+<body class="helvetica">
+	
+	<!-- COINTENT -->
+	<div class="helvetica flex flex_justify-center full-screen flex_align-center">
+		<section class="border-all padding-2 border-box">
+					<form class="" role="form" method="POST" action="http://localhost:8888/login">
+
+				<input type="hidden" name="_token" value="cGPiCht4JmuSnvC7DM2cvhersukF863gjyBxoUPe">
+
+				<div class="">
+					<label class="">E-Mail Address</label>
+					<input type="email" class="width-full" name="email" value="">
+				</div>
+
+				<div class="">
+					<label class="">Password</label>
+					<input type="password" class="width-full" name="password">
+				</div>
+
+				<div class="">				
+					<input type="checkbox" id="checkbox" name="remember">
+					<label for="checkbox">Remember Me</label>
+				</div>
+
+				<div class="">
+					<div class="">
+						<button type="submit" class="padding-quarter">Login</button>
+					</div>
+				</div>
+				<div>
+					<a href="http://localhost:8888/password/email" class="grey">Forgot Your Password?</a></br>
+					<a href="http://localhost:8888/auth/register" class="grey">Register Account</a>
+				</div>
+			</form>
+			
+
+		
+		</section>
+	</div>
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+<script src="assets/js/plugins.js"></script>
+<script src="assets/js/main.js"></script>
+
+</body>
+</html>

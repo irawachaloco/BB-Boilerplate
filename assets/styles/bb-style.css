@@ -1,0 +1,53 @@
+/****************************
+BB-CUSTOM STYLES
+****************************/
+/*** Fonts ***/
+body, html {
+	font-size:14px;
+}
+h1, h2, h3, h5, h6 {
+	text-transform: uppercase;
+}
+h1 {
+	font-size: 1.2em;
+	line-height: 1.5em;
+	font-weight: normal;
+}
+h2 {
+	font-size: 1em;
+	line-height: 1.5em;
+	font-weight: normal;
+}
+h3 {
+	font-size: .9em;
+	line-height: 1.5em;
+	font-weight: normal;	
+}
+h4 {
+	font-size: .7em;
+	line-height: 1.5em;
+	color: grey;
+	font-weight: normal;	
+}
+/*** Menu ***/
+.menu-item,
+.footer-item,
+.menu-search-item {
+	/*padding: .5em 0;*/
+	text-transform: uppercase;
+}
+
+.menu-item a,
+.footer-item a {
+	display: inline-block;
+	text-decoration: none;
+}
+
+.bb-menu {
+	border: 1px solid;
+	border-width: 0 0 1px 0;
+	background: white;
+}
+.sample-image {
+	background: url(../images/gallery/image-5.jpg) center no-repeat;
+}
