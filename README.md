@@ -1,2 +1,2 @@
-# BB-Boilerplate
-basic markup &amp; syles
+# templete-p
+templete para proyecto de investigacion
